@@ -9,7 +9,7 @@ def calculate_attendance(present, total):
     if total <= 0:
         return 0
 
-    return (present / total) * 100
+    return (present / total) * 50
 
 
 def check_attendance(percentage):
